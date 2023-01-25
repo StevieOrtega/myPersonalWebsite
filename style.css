@@ -82,3 +82,37 @@ section {
   width: 100%;
   border-radius: 30px;
 }
+
+/* 
+------- section2 --------
+*/
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.section2-content {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  margin: 15px;
+}
+.section002-box {
+  text-align: center;
+  padding: 50px;
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section002-header {
+  font-size: 24px;
+}
+
+.section2-para {
+  font-size: 16px;
+}
