@@ -3,8 +3,57 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* 
+------- General --------
+*/
 
 body {
-  height: 500px;
-  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 16px 150px;
+}
+img {
+  height: 40px;
+}
+ul {
+  list-style: none;
+}
+/* 
+------- NavBar --------
+*/
+
+.navbar {
+  /* border: 30px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-container {
+  /* border: 23px blue solid; */
+  display: flex;
+  gap: 50px;
+}
+.nav-links {
+  text-decoration: none;
+  font-size: 18px;
+  color: #7d5e32;
+}
+
+.section-001 {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+}
+.text-container {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-para {
+  text-align: center;
 }
