@@ -20,6 +20,9 @@ img {
 ul {
   list-style: none;
 }
+section {
+  margin-top: 10px;
+}
 /* 
 ------- NavBar --------
 */
@@ -41,19 +44,41 @@ ul {
   color: #7d5e32;
 }
 
+/* 
+------- section1 --------
+*/
 .section-001 {
-  background-color: red;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .text-container {
-  background-color: blue;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 47%;
+  overflow: hidden;
+}
+
+.main-header {
+  font-size: 45px;
+}
+.main-text {
+  font-size: 32px;
 }
 
 .main-para {
+  font-size: 20px;
   text-align: center;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  max-width: 470px;
+}
+.main-img {
+  height: auto;
+  width: 100%;
+  border-radius: 30px;
 }
