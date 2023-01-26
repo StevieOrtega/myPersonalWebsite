@@ -21,7 +21,7 @@ ul {
   list-style: none;
 }
 section {
-  margin-top: 10px;
+  margin-top: 48px;
 }
 /* 
 ------- NavBar --------
@@ -51,6 +51,7 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  height: 1040px;
 }
 .text-container {
   display: flex;
@@ -69,8 +70,8 @@ section {
 }
 
 .main-para {
+  margin-top: 16px;
   font-size: 20px;
-  text-align: center;
 }
 .image-container {
   display: flex;
@@ -81,15 +82,22 @@ section {
   height: auto;
   width: 100%;
   border-radius: 30px;
+  object-fit: scale-down;
 }
 
 /* 
 ------- section2 --------
 */
 
-.section-container {
+.section2-container {
   display: flex;
+  margin-top: 136px;
   flex-direction: column;
+}
+.hobsnskills-container {
+  display: flex;
+  margin-top: 64px;
+  gap: 100px;
 }
 
 .section2-content {
@@ -115,4 +123,54 @@ section {
 
 .section2-para {
   font-size: 16px;
+}
+
+.panel-content {
+  display: flex;
+}
+
+.hobsnskills-header {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+.hobbies-box {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: #f7f7f7;
+  padding: 24px;
+  margin-bottom: 16px;
+}
+.line {
+  width: 87px;
+  border: 2px solid blue;
+  margin-bottom: 32px;
+}
+
+.skills-box {
+  border-bottom: 1px solid lightgray;
+  padding: 16px;
+}
+
+.skills-subhead {
+  font-size: 14px;
+}
+.skills-p {
+  font-size: 16px;
+}
+
+.section3 {
+  background-color: red;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-contents {
+  display: flex;
+}
+.about-content {
+  display: flex;
 }
