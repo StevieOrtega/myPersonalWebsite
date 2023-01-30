@@ -4,15 +4,22 @@
   box-sizing: border-box;
 }
 /* 
-------- General --------
+------- General 
+
+
+element.style {
+}
+.container {
+    max-width: 1040px;
+    /* margin-left: auto; */
+/* margin-right: auto;--------
 */
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 100vh;
-  margin: 16px 150px;
+  max-width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
 }
 img {
   height: 40px;
@@ -22,6 +29,12 @@ ul {
 }
 section {
   margin-top: 48px;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #7d5e32;
 }
 /* 
 ------- NavBar --------
@@ -50,16 +63,13 @@ section {
 .section-001 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  height: 1040px;
+  justify-content: space-evenly;
 }
 .text-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  width: 48%;
   align-items: center;
-  width: 47%;
-  overflow: hidden;
 }
 
 .main-header {
@@ -76,13 +86,11 @@ section {
 .image-container {
   display: flex;
   justify-content: center;
-  max-width: 470px;
 }
 .main-img {
-  height: auto;
-  width: 100%;
+  height: 500px;
+  width: 78%;
   border-radius: 30px;
-  object-fit: scale-down;
 }
 
 /* 
@@ -159,18 +167,80 @@ section {
   font-size: 16px;
 }
 
-.section3 {
-  background-color: red;
-}
+/* 
+------- section3 --------
+*/
 
 .info-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px;
 }
 
+.info-header {
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+.info-p {
+  font-size: 16px;
+}
+.info-tiger-img {
+  height: 554px;
+  width: 421px;
+  margin: 48px;
+}
+.about-article {
+  margin: 15px;
+}
+.about-img {
+  border-radius: 10px;
+  height: 204px;
+  width: 112px;
+}
+.about-content {
+  margin-top: 16px;
+  width: 48%;
+}
 .about-contents {
   display: flex;
+  justify-content: space-between;
 }
 .about-content {
   display: flex;
+}
+
+.section4 {
+  margin-top: 250px;
+}
+.section4-img {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.s4-container {
+  display: flex;
+  margin: 15px;
+
+  justify-content: space-evenly;
+}
+
+/*=================
+footer
+=================*/
+footer {
+  background-color: #7d5e32;
+  display: flex;
+  padding: 50px 0;
+  color: white;
+}
+
+footer a:link,
+footer a:visited {
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
